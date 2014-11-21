@@ -1,0 +1,289 @@
+/*Style Sheet*/
+
+/*give the whole page a font of Arial and a height of 100%*/
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	height:100%;
+}
+
+/*gives the container a background color of white, with a width of 90% and height of 100%*/
+.container{
+	background-color: white;
+	width:90%;
+	height:100%;
+}
+
+#pass{
+	margin-left:4%;
+}
+#current{
+	color: rgb(205, 0, 255);/*light purple color*/
+}	
+
+/*links are color light blue*/
+a:link {
+    color: #2A6496;
+}
+
+/*visited link is darkish blue*/
+a:visited {
+    color: #0B8EFF;
+}
+
+/*hover color is black*/
+a:hover {
+    color: black;
+}
+
+/*active link is red*/
+a:active {
+    color: #5A758B;
+}
+
+
+/*set font size to 300% which is centered with a 2px blue border.*/
+h1{
+	font-size:300%;
+	text-align:center;
+	border-bottom:2px groove blue;
+	border-top:2px groove blue;
+	background-color:#FDFDFD
+}
+
+/*used to show an incorrect erro*/
+.incorrect{
+	color:red;
+	margin-bottom:0%;
+}
+
+/*styles the error msges */
+.noAccounts{
+	color:red;
+	margin-bottom:3%;
+	font-size:140%;
+	text-align:center;
+	margin-top:2%;
+}
+
+h2{
+	text-align:center;
+	text-decoration:underline;
+}
+/*style the please make a transaction msg with a link*/
+.noAccounts a{
+	color:red;
+}
+
+#maincontent{
+	height:100%;
+}
+
+/*sets the height for the login page*/
+#welcomeContent{
+	height:500px;
+	/* height:689px*/
+}
+
+
+nav ul li{
+	list-style-type: none;
+    display: inline;
+}
+
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+/*sets the font size and sets the background color*/
+#footer{
+	border-top:2px groove blue;
+	font-size:87%;
+	background-color:#FDFDFD
+}
+
+/*this designs the link to look like a button*/ 
+.linkButton{
+	border:2px groove blue;
+	margin-right:2%;
+	padding:0.2%
+}
+
+/*if the length in the form gets to long break the word*/
+.lengthForm{
+	word-break:break-all;
+}
+
+/*this styles the maincontent P's*/
+#maincontent p{
+	font-size:140%;
+	text-align:center;
+	margin-top:3%;
+	text-decoration:underline;
+}
+
+/*this styles the account page*/
+.accountsPage{
+	border:2px groove blue;
+	margin-top:2%;
+	margin-right:17%;
+	margin-bottom:3%;
+	margin-left:14.5%;
+	height:76.5%;
+	background-color:#FDFDFD;
+}
+/*this styles the addAccounts page with no previous accounts*/
+#addAccountsPage{
+	border:2px groove blue;
+	margin-top:2%;
+	margin-right:17%;
+	margin-bottom:3%;
+	margin-left:14.5%;
+	height:200px;
+	background-color:#FDFDFD;
+}
+/*this is used fot the please add account msg*/
+#addAccount{
+	margin-top: 6%;
+}
+
+.errorPage{
+	border:2px groove blue;
+	margin-top:2%;
+	margin-right:17%;
+	margin-bottom:3%;
+	margin-left:14.5%;
+	height:400px;
+	background-color:#FDFDFD;
+}
+
+#errorMsg{
+	font-size: 238%;
+	text-align: center;
+	margin-top: 21%;
+	color: red;
+}
+
+/*this styles the login button on the welcome page*/
+#loginButton{
+	width:25%;
+	margin-top:2%;
+	margin-left:37%;
+	margin-bottom:20%;
+}
+
+/*this styles the submit button*/
+#submitTrans{
+	width:25%;
+	margin-top:1%;
+	margin-left:35%;
+	margin-bottom:1%;
+}
+
+ 
+.navigationStyle{
+ 	text-align:center;
+ 	display:inline;
+ 	font-size:125%;
+ }
+
+/*this sets up the dimensions for the login table when logging in*/
+#loginTable{
+	/*margin-top:20%;*/
+	margin-top:13%;
+	margin-left:37%;
+}
+
+/*this styles the form in add account*/
+.form{
+	width:295px;
+	border:2px groove blue;
+	margin-top:167px;
+	margin-left:167px;
+	padding:32px;
+}
+
+/*used in the footer to design the contact us section*/
+#contactUs{
+	float:left;
+	margin-left:2%;
+	margin-top:3%;
+	color:grey;
+	width:30%;
+	
+}
+
+/*used in the footer to design the date section*/
+#date{
+	color:grey;
+	margin-top:3%;
+	width:30%;
+	margin-left:10%;
+	display:inline-block;
+}
+
+/*used in the footer to design the copy section*/
+#copy{
+	margin-left:7%;
+	margin-right:2%;
+	margin-top:3%;
+	display:inline-block;
+	color:grey;
+}
+
+/*clears the floats*/	
+.clear{
+	clear:both;
+}
+
+/*styles the account table */
+.accountTable{
+	margin-top:-1%;
+	background-color:white;
+}
+
+/*center the table headers*/
+.accountTable th{
+	text-align:center;
+}
+
+.tableAlign{
+	text-align:center;
+	
+}
+
+/*override a bootstrap style*/
+.form-group input{
+	width:64%;
+}
+
+/*style the account form in add account*/
+#accountForm{
+	margin-top:14%;
+	margin-left:25%;
+}
+
+/*used in the transaction form for the amount text box size*/
+#amount{
+	width: 16%;
+}
+
+/*used in the transaction page*/
+.pHeadings{
+	font-weight:bold;
+	margin-left:1%;
+	text-decoration: underline;
+	font-size:120%;
+}
+
+#currBalance{
+	font-size:115%;
+	color:blue;
+	margin-left:1%;
+}
+
+/*overwrite a bootstrap style...used in transaction form*/
+.form-inline{
+	margin-left:1%;
+}

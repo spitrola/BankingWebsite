@@ -1,0 +1,11 @@
+		<table id="loginTable">
+			<tr>
+				<td> <label for="uname">Username:</label> </td>
+				<td> <input type="text" name="uname" id="uname" class="form-control" required autofocus/> </td>
+			</tr>   
+			<tr>
+				<td><label for="upass" id="pass">Password:</label></td>
+				<td><input type="password" name="upass" id="upass" class="form-control" required /></td>
+			</tr>
+		</table>	
+		<button class="btn btn-lg btn-primary btn-block" id="loginButton" type="submit">Sign in</button>

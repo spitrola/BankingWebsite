@@ -1,0 +1,13 @@
+			 <div class="form-group">
+				<label for="aname">Name:</label>
+				<input type="text" class="form-control" name="aname" id="aname"  placeholder="Enter Name" required autofocus/>
+			</div> 
+			<div class="form-group">
+				<label for="anote">Note:</label>
+				<input type="text"  class="form-control" name="anote" id="anote" placeholder="Enter Note" required />
+			</div>
+
+		<button id="loginButton" type="submit">Add Account</button>
+		
+		
+

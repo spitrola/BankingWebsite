@@ -1,0 +1,18 @@
+<label for="amount">Amount: </label>
+<input type="text" id="amount" name="amount" placeholder="Amount" required autofocus>
+
+<label for="moneyFrom">From: </label>
+<input type="text" id="moneyFrom" name="moneyFrom" placeholder="From" required>
+
+<label for="note">Note: </label>
+<input type="text" id="note" name="note" placeholder="Note" required>
+
+<label>
+    <input type="radio" name="choice" id="deposit" value="deposit" checked>
+	Deposit
+ </label>
+<label>
+    <input type="radio" name="choice" id="withdraw" value="withdraw">
+    Withdraw
+</label>
+<button id="submitTrans" type="submit">Submit</button>
